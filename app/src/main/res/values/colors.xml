@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="inactive">#CC858585</color>
+    <color name="active">#0063B3</color>
+    <color name="darkBlue">#0E4B67</color>
+    <color name="gray">#9A9A9A</color>
+    <color name="accentgreenishBlue">#00FFAE</color>
+    <color name="theme_color">#2176ff</color>
+    <color name="theme_color_80">#CC2176FF</color>
+    <color name="theme_color_8">#142176ff</color>
+    <color name="light_8">#14000000</color>
+
+    <!--    Palette Color -->
+    <!--    ["45294b","f1f1fb","facc51","8d8df7","ecc6a0","876763","c0bdf5","e2a489","747cd4"]-->
+
+
+    <color name="purple_pallette">#45294b</color>
+    <color name="dark_pallette_light">#f1f1fb</color>
+    <color name="yellow_pallette">#facc51</color>
+    <color name="dark_pallete_light2">#8d8df7</color>
+    <color name="orange_pallete_light">#ecc6a0</color>
+    <color name="red_pallete_light_100">#876763</color>
+    <color name="dark_pallete_light3">#c0bdf5</color>
+    <color name="orange_pant_pallete">#e2a489</color>
+    <color name="blue_pallete_pant">#747cd4</color>
+    <color name="image_bg_color_pallette">#E4F4F4FF</color>
+    <color name="text_signup">#2d3952</color>
+    <color name="primaryStatusBar" >#5FBDFF</color>
+</resources>

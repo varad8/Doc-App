@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Doc App</string>
+
+    <!--    Custom String Resource here add-->
+    <string name="text1">Welcome</string>
+    <string name="description1">Hey!,Welcome to the Health App.We are care our patients.</string>
+
+    <string name="text2">New Appointment</string>
+    <string name="description2">Book your online appointmment of nearby doctor.</string>
+
+
+    <string name="text3">Prescription</string>
+    <string name="description3">Doctor will issue prescription according your health report.Also doctor add medicine dosage in the prescription.</string>
+
+
+    <string name="text4">Track Records</string>
+    <string name="description4">Easily track your records from the app.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

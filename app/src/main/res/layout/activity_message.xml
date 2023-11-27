@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Message.MessageActivity"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/baseline_keyboard_arrow_left_24"
+        app:civ_border_color="#1A000000"
+        app:civ_border_width="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/dark_pallette_light"
+        app:civ_circle_background_color="@color/dark_pallette_light"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/usericon"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        tools:text="Full Name"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/online"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        tools:text="Online"
+        android:textColor="#00C853"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView"
+        app:layout_constraintTop_toBottomOf="@+id/fullname" />
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#1A000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView"
+        app:layout_constraintVertical_bias="0.01" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chattingRecylerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/messagetxt"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+
+    <EditText
+        android:id="@+id/messagetxt"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:background="@drawable/editext_msg_sent"
+        android:hint="Type something.."
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sendBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/sendBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/button_icon"
+        android:padding="10dp"
+        android:src="@drawable/baseline_send_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chattingRecylerView"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

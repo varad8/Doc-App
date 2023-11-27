@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "479825602375",
+    "project_id": "healthapp-b3dbb",
+    "storage_bucket": "healthapp-b3dbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479825602375:android:12827595ac461b904f4e62",
+        "android_client_info": {
+          "package_name": "com.vrnitsolution.healthapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvNOmX55CM0tfjyyKB5iCA8BSoCdQ8JLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.send" />
+    <uses-permission android:name="com.google.android.c2dm.permission.Recieve" />
+    <uses-permission android:name="com.google.android.c2dm.permission.Reciever" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthApp"
+        tools:targetApi="31">
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".UpdateUserProfile"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".UserRegistration"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".SearchDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AllDoctorListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin.DoctorDetailForAdmin"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin.AdminDashboard"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin.AdminLogin"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GetNotification.AllNotification"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Message.MessageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Message.SearchUserActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Message.ChatMainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <!--
+     TODO: Before you run your application, you need a Google Maps API key.
+
+     To get one, follow the directions here:
+
+        https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+     Once you have your API key (it starts with "AIza"), define a new property in your
+     project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+     "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Location.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Location.MainActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorUI.AppointmentHistoryForDoctor"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorUI.PrescriptionHistoryForDoctor"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorUI.Doctor_Dashboard_Profile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorUI.SendNotification"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorUI.PatinetProfile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrescriptionView"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrescriptionHistory"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorUI.GeneratePrescription"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorUI.AppointmentViewDoctor"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorUI.DoctorDashboard"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorUI.DoctorFormPage"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorUI.DoctorLogin"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorUI.RegisterActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorUI.IntroActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppointmentDetailsPage"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppointmentHistory"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DashboardProfile.DashboardProfile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bookappointment.BookAppointment"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorDeatailsPage"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DashboardHome"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".FCMNotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

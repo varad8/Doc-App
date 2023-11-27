@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewDosageAfterMill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dosage After Mill: "
+            android:textSize="14sp"
+            android:fontFamily="@font/average_sans"
+            android:textColor="@color/black"
+        />
+
+        <TextView
+            android:id="@+id/textViewDosageName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dosage Name: "
+            android:textSize="14sp"
+            android:fontFamily="@font/average_sans"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewDosageRemark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dosage Remark: "
+            android:textSize="14sp"
+            android:fontFamily="@font/average_sans"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewDosageTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dosage Time: "
+            android:textSize="14sp"
+            android:fontFamily="@font/average_sans"
+            android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#CFCFFF"
+        android:layout_marginTop="1dp"
+        />
+
+    </LinearLayout>

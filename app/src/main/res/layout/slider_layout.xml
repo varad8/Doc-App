@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    app:flow_horizontalAlign="center">
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/image1"
+        android:src="@drawable/doctor_1"
+        />
+
+    <TextView
+        android:id="@+id/dc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/text1"
+        android:textAlignment="center"
+        android:textFontWeight="700"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/description1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+
+</LinearLayout>
