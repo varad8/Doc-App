@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "174817947969",
+    "project_id": "docapp-88819",
+    "storage_bucket": "docapp-88819.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174817947969:android:bec7413990f21a7097f1c0",
+        "android_client_info": {
+          "package_name": "com.vrnitsolution.healthapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt-4wnjJBW4N35PP1O60ynqXF3oyOEgv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
